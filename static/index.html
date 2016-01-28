@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
 
-<body>
-    <h3>Hello World!</h3>
+<head>
+<script src="/static/libs/angular/angular.js"></script>
+</head>
+<body ng-app="flask" ng-controller="myCtrl as my">
+<h3>Hello {{my.name}}!</h3>
+<script src="/static/app.js"></script>
 </body>
 
 </html>
