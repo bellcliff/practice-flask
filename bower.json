@@ -7,7 +7,7 @@
   "main": "",
   "moduleType": [],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/bellcliff/practice-flask",
   "ignore": [
     "**/.*",
     "node_modules",

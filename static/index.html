@@ -6,6 +6,12 @@
 </head>
 <body ng-app="flask" ng-controller="myCtrl as my">
 <h3>Hello {{my.name}}!</h3>
+<table>
+    <tr ng-repeat="user in my.users">
+        <td>{{user.firstName}}</td>
+        <td>{{user.lastName}}</td>
+    </tr>
+</table>
 <script src="/static/app.js"></script>
 </body>
 
